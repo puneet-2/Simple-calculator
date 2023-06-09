@@ -1,0 +1,128 @@
+*{
+    margin : 0px;
+    background-color: bisque; 
+}
+
+.head{
+    margin-left: 38%;
+}
+#calculator_full{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+    width:60vw;
+    margin-top: 5%;
+    margin-left: 20%;
+    /* margin-bottom: 20%; */
+    padding: 15px 15px 15px 15px;
+    background-color: darkslategray;
+    border-radius: 20px;
+}
+
+#display-container{
+    margin-top: 0px;
+    font-size: 1rem;
+    color: blue;
+    height: 10vh;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+#display{
+    /* border-radius: 20px;
+    align-items: center; 
+    text-align: end;
+    width: inherit;
+    height: inherit;
+    font-size: 2rem;
+    background-color: red; */
+
+    border-radius: 20px;
+    align-items: center;
+    text-align: end;
+    width: inherit;
+    height: inherit;
+    font-size: 2rem;
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+
+
+
+
+
+#left_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5% 5% 5% 5%;
+    padding: 10px;
+    width: 70%;
+    background-color: darkslategray;
+}
+
+.buttons{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 6vh;
+    padding: 10px;
+    width: 5vw;
+    background-color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 2px; 
+    text-align: center;
+
+}
+
+ .nos{
+    background-color: brown;
+    text-align: center;
+    align-items: center;
+    
+
+} 
+
+#all_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkslategray;
+    align-items: center;
+    /* margin-top: 5% 5% 5% 5%; */
+}
+
+#right_buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+    background-color: darkslategray;
+    margin: 5%;
+    align-items: center;
+    padding: 10px;
+   
+}
+
+.r_buttons{
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 2vh;
+    padding: 13px;
+    width: 3vw;
+    background-color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 2px ; 
+    text-align: center;
+
+}
